@@ -1,0 +1,56 @@
+.octodex{
+  position: relative;
+  list-style: none;
+  font-family: sans-serif;
+}
+/* Setting up "Global" values in parent container */
+
+.octocat {
+float: left;
+margin: 4px;
+}
+/* Aligning list items and child elements horizontally */
+
+.octocat img{
+  max-width: 300px;
+  border: solid #d8d8da 1px;
+  border-radius: 10px;
+}
+/* Correctly sizing images and adding rounded border */
+
+.authors{
+  float: right;
+  padding-right: 2px;
+}
+.authors img{
+  max-width: 25px;
+  float: right;
+  border: none;
+  border-radius: 5px;
+}
+/* Correctly sizing author images, floating author images to the right, and adding curved edges through border radius */
+
+
+ul.authors{
+list-style: none;
+}
+
+.image-footer{
+}
+
+.image-caption{
+  display: inline;
+  font-weight: bold;
+  color: #a3a3a8;
+}
+/* aligns caption element with number and sets correct color and font weight */
+
+.image-caption a{
+  color: black;
+  text-decoration: none;
+}
+/* removes default hyperlink color and properly sets text color */
+
+.image-number{
+  color: #d8d8da;
+}
