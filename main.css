@@ -14,7 +14,7 @@ margin: 10px;
 .octocat img{
   max-width: 300px;
   border: solid #d8d8da 1px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 /* Correctly sizing images and adding rounded border */
 
@@ -23,7 +23,7 @@ margin: 10px;
   padding-right: 2px;
 }
 .authors img{
-  max-width: 25px;
+  max-width: 22px;
   /*float: right;*/
   border: none;
   border-radius: 5px;
