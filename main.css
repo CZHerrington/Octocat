@@ -7,7 +7,7 @@
 
 .octocat {
 float: left;
-margin: 4px;
+margin: 10px;
 }
 /* Aligning list items and child elements horizontally */
 
@@ -24,11 +24,12 @@ margin: 4px;
 }
 .authors img{
   max-width: 25px;
-  float: right;
+  /*float: right;*/
   border: none;
   border-radius: 5px;
+  position: relative;
 }
-/* Correctly sizing author images, floating author images to the right, and adding curved edges through border radius */
+/* Correctly sizing author images, floating author images to the right, and adding curved edges through border radius. Also places images in line with nested content*/
 
 
 ul.authors{
@@ -36,7 +37,12 @@ list-style: none;
 }
 
 .image-footer{
+padding-bottom: 20px;
+border-bottom: solid #d8d8da 2px;
+border-radius: 2px;
 }
+
+/*Draws the bottom border and positions it correctly */
 
 .image-caption{
   display: inline;
@@ -53,4 +59,16 @@ list-style: none;
 
 .image-number{
   color: #d8d8da;
+  /*margin-right: 50px;*/
 }
+
+.image-number:before {
+  content: "#";
+}
+/* adds the pound sign the the image number*/
+
+
+
+
+
+/*TESTING AREA*/
